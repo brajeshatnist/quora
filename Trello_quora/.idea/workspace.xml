@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47a15d9d-c79e-46a9-bbbf-df38ac55657d" name="Default Changelist" comment="" />
+    <list default="true" id="47a15d9d-c79e-46a9-bbbf-df38ac55657d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/model/ErrorResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-api/target/classes/com/upgrad/quora/api/model/ErrorResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/target/classes/com/upgrad/quora/api/model/ErrorResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-api/target/classes/com/upgrad/quora/api/model/SignupUserRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/target/classes/com/upgrad/quora/api/model/SignupUserRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-api/target/classes/com/upgrad/quora/api/model/SignupUserResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/target/classes/com/upgrad/quora/api/model/SignupUserResponse.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +24,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -30,6 +40,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1gFkvBdNcHGqfWclrfqoA7a1rJC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -40,6 +51,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="yaml&#9;FILE&#9;file://E:/Trello_quora/quora_solution/Trello_quora/quora-api/src/main/resources/application.yaml&#10;quora&#9;FILE&#9;file://E:/Trello_quora/quora_solution/Trello_quora/quora-api/src/main/java/com/upgrad/quora/api/QuoraApiApplication.java&#10;quoraapi&#9;FILE&#9;file://E:/Trello_quora/26thsepquora/Trello_quora/quora-api/src/main/java/com/upgrad/quora/api/QuoraApiApplication.java&#10;.yaml&#9;FILE&#9;file://E:/Trello_quora/26thsepquora/Trello_quora/quora-api/src/main/resources/application.yaml&#10;userco&#9;FILE&#9;file://E:/Trello_quora/26thsepquora/Trello_quora/quora-api/src/main/java/com/upgrad/quora/api/controller/UserController.java&#10;userau&#9;FILE&#9;file://E:/Trello_quora/Trello_quora_solution/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/entity/UserAuthEntity.java&#10;userentity&#9;FILE&#9;file://E:/Trello_quora/Trello_quora_solution/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/entity/UserEntity.java&#10;commond&#9;PSI&#9;JAVA://com.upgrad.quora.service.dao.CommonDao&#10;userdao&#9;FILE&#9;file://E:/Trello_quora/Trello_quora_solution/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/dao/UserDao.java&#10;userc&#9;FILE&#9;file://E:/Trello_quora/Trello_quora_solution/Trello_quora/quora-api/src/main/java/com/upgrad/quora/api/controller/UserController.java&#10;quora-api&#9;FILE&#9;file://E:/Trello_quora/Trello_quora_solution/Trello_quora/quora-api/pom.xml&#10;answere&#9;FILE&#9;file://E:/Trello_quora/Trello_quora_solution/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/entity/AnswerEntity.java&#10;.json&#9;FILE&#9;file://E:/Trello_quora/Trello_quora_solution/Trello_quora/quora-api/src/main/resources/endpoints/quora.json&#10;usere&#9;FILE&#9;file://E:/Trello_quora/Trello_quora_solution/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/entity/UserEntity.java&#10;userd&#9;FILE&#9;file://E:/Trello_quora/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/dao/UserDao.java&#10;quoraap&#9;FILE&#9;file://E:/Trello_quora/Trello_quora/quora-api/src/main/java/com/upgrad/quora/api/QuoraApiApplication.java&#10;answer&#9;FILE&#9;file://E:/Trello_quora/Trello_quora/quora-api/src/test/java/com/upgrad/quora/api/controller/AnswerControllerTest.java&#10;question&#9;FILE&#9;file://E:/Trello_quora/Trello_quora/quora-api/src/test/java/com/upgrad/quora/api/controller/QuestionControllerTest.java&#10;common&#9;FILE&#9;file://E:/Trello_quora/Trello_quora/quora-api/src/test/java/com/upgrad/quora/api/controller/CommonControllerTest.java&#10;admincon&#9;FILE&#9;file://E:/Trello_quora/Trello_quora/quora-api/src/test/java/com/upgrad/quora/api/controller/AdminControllerTest.java&#10;appli&#9;FILE&#9;file://E:/Trello_quora/Trello_quora/quora-api/src/main/java/com/upgrad/quora/api/QuoraApiApplication.java&#10;answercontro&#9;FILE&#9;file://E:/Trello_quora/Trello_quora/quora-api/src/main/java/com/upgrad/quora/api/controller/AnswerController.java&#10;adminte&#9;FILE&#9;file://E:/Trello_quora/Trello_quora/quora-api/src/test/java/com/upgrad/quora/api/controller/AdminControllerTest.java&#10;admin&#9;FILE&#9;file://E:/Trello_quora/Trello_quora/quora-api/src/test/java/com/upgrad/quora/api/controller/AdminControllerTest.java&#10;userbu&#9;FILE&#9;file://E:/Trello_quora/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/business/UserBusinessService.java&#10;.sql&#9;FILE&#9;file://E:/Trello_quora/Trello_quora/quora-db/src/main/resources/sql/quora.sql&#10;admins&#9;FILE&#9;file://E:/Trello_quora/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/business/AdminBusinessService.java&#10;userauth&#9;FILE&#9;file://E:/Trello_quora/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/entity/UserAuthEntity.java&#10;questione&#9;FILE&#9;file://E:/Trello_quora/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/entity/QuestionEntity.java&#10;answeren&#9;FILE&#9;file://E:/Trello_quora/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/entity/AnswerEntity.java&#10;adminc&#9;FILE&#9;file://E:/Trello_quora/Trello_quora/quora-api/src/main/java/com/upgrad/quora/api/controller/AdminController.java&#10;app&#9;FILE&#9;file://E:/Trello_quora/Trello_quora/quora-api/src/main/java/com/upgrad/quora/api/QuoraApiApplication.java&#10;answerda&#9;FILE&#9;file://E:/Trello_quora/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/dao/AnswerDao.java&#10;commonbusines&#9;FILE&#9;file://E:/Trello_quora/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/business/CommonBusinessService.java&#10;questionda&#9;FILE&#9;file://E:/Trello_quora/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/dao/QuestionDao.java&#10;admindao&#9;FILE&#9;file://E:/Trello_quora/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/dao/AdminDao.java&#10;application&#9;FILE&#9;file://E:/Trello_quora/Trello_quora/quora-api/src/main/java/com/upgrad/quora/api/QuoraApiApplication.java&#10;applicat&#9;PSI&#9;JAVA://com.upgrad.quora.api.QuoraApiApplication&#10;quora.sql&#9;FILE&#9;file://E:/Trello_quora/quora-db/src/main/resources/sql/quora.sql&#10;answerdao&#9;FILE&#9;file://E:/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/dao/AnswerDao.java&#10;answerServ&#9;FILE&#9;file://E:/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/business/AnswerBusinessService.java&#10;questionser&#9;FILE&#9;file://E:/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/business/QuestionBusinessService.java&#10;commondao&#9;FILE&#9;file://E:/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/dao/CommonDao.java&#10;commonbusiness&#9;FILE&#9;file://E:/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/business/CommonBusinessService.java&#10;adminservice&#9;FILE&#9;file://E:/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/business/AdminBusinessService.java&#10;userbusinessser&#9;FILE&#9;file://E:/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/business/UserBusinessService.java&#10;userservice&#9;FILE&#9;file://E:/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/business/UserBusinessService.java&#10;entity&#9;FILE&#9;file://E:/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/entity/UserEntity.java&#10;adminser&#9;FILE&#9;file://E:/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/business/AdminBusinessService.java&#10;usera&#9;FILE&#9;file://E:/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/entity/UserAuthEntity.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -56,6 +68,10 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Trello_quora\quora-api\src\main\resources\endpoints" />
       <recent name="E:\Trello_quora\quora-api\src\main\resources" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.upgrad.quora.service.entity" />
+      <recent name="com.upgrad.quora.service.business" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.QuoraApiApplication">
@@ -193,7 +209,8 @@
       <workItem from="1597723433343" duration="258000" />
       <workItem from="1597791782467" duration="7190000" />
       <workItem from="1597844285368" duration="6025000" />
-      <workItem from="1597863761427" duration="4276000" />
+      <workItem from="1597863761427" duration="12895000" />
+      <workItem from="1597970867533" duration="23498000" />
     </task>
     <servers />
   </component>
@@ -201,54 +218,66 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="26" key="#Assign_Data_Sources" timestamp="1598138248063">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="26" key="#Assign_Data_Sources/0.0.1366.728@0.0.1366.728" timestamp="1598138248063" />
     <state x="275" y="26" width="982" height="675" key="#Project_Structure" timestamp="1597722023383">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="26" width="982" height="675" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1597722023383" />
+    <state x="488" y="58" key="#com.intellij.ide.util.MemberChooser" timestamp="1598016388485">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="58" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1598016388485" />
     <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1597795001008">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1597795001008" />
-    <state width="1323" height="351" key="GridCell.Tab.0.bottom" timestamp="1597863561751">
+    <state width="1323" height="254" key="GridCell.Tab.0.bottom" timestamp="1598144044975">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="351" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597863561751" />
-    <state width="1323" height="351" key="GridCell.Tab.0.center" timestamp="1597863561751">
+    <state width="1323" height="254" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598144044975" />
+    <state width="1323" height="254" key="GridCell.Tab.0.center" timestamp="1598144044975">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="351" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597863561751" />
-    <state width="1323" height="351" key="GridCell.Tab.0.left" timestamp="1597863561751">
+    <state width="1323" height="254" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598144044975" />
+    <state width="1323" height="254" key="GridCell.Tab.0.left" timestamp="1598144044975">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="351" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597863561751" />
-    <state width="1323" height="351" key="GridCell.Tab.0.right" timestamp="1597863561751">
+    <state width="1323" height="254" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598144044975" />
+    <state width="1323" height="254" key="GridCell.Tab.0.right" timestamp="1598144044975">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="351" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597863561751" />
-    <state width="1323" height="351" key="GridCell.Tab.1.bottom" timestamp="1597863561752">
+    <state width="1323" height="254" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598144044975" />
+    <state width="1323" height="254" key="GridCell.Tab.1.bottom" timestamp="1598144044976">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="351" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597863561752" />
-    <state width="1323" height="351" key="GridCell.Tab.1.center" timestamp="1597863561752">
+    <state width="1323" height="254" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598144044976" />
+    <state width="1323" height="254" key="GridCell.Tab.1.center" timestamp="1598144044976">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="351" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1597863561752" />
-    <state width="1323" height="351" key="GridCell.Tab.1.left" timestamp="1597863561752">
+    <state width="1323" height="254" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1598144044976" />
+    <state width="1323" height="254" key="GridCell.Tab.1.left" timestamp="1598144044975">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="351" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1597863561752" />
-    <state width="1323" height="351" key="GridCell.Tab.1.right" timestamp="1597863561752">
+    <state width="1323" height="254" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1598144044975" />
+    <state width="1323" height="254" key="GridCell.Tab.1.right" timestamp="1598144044976">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="351" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1597863561752" />
+    <state width="1323" height="254" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1598144044976" />
     <state x="204" y="20" key="SettingsEditor" timestamp="1597722699179">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="204" y="20" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1597722699179" />
-    <state x="391" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1597863763842">
+    <state x="391" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1597970874480">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="391" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1597863763842" />
+    <state x="391" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1597970874480" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1598035636030">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1598035636030" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
