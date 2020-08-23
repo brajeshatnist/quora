@@ -6,6 +6,7 @@ import com.upgrad.quora.service.dao.UserDao;
 import com.upgrad.quora.service.entity.UserAuthEntity;
 import com.upgrad.quora.service.entity.UserEntity;
 import com.upgrad.quora.service.exception.AuthenticationFailedException;
+import com.upgrad.quora.service.exception.SignOutRestrictedException;
 import com.upgrad.quora.service.exception.SignUpRestrictedException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -75,7 +76,6 @@ public class UserAuthenticationService {
         return userAuthEntity;
     }
 
-/*
     @Transactional(propagation = Propagation.REQUIRED)
     public UserEntity signout(final String accessToken) throws SignOutRestrictedException {
         UserAuthEntity userAuthEntity = userAuthDao.getUserAuthByToken(accessToken);
@@ -86,7 +86,7 @@ public class UserAuthenticationService {
         userAuthDao.updateUserAuth(userAuthEntity);
         return userAuthEntity.getUserEntity();
     }
-*/
+
 
     //checks whether the username exist in the database
     private boolean isUserNameInUse(final String userName) {
