@@ -3,12 +3,16 @@ package com.upgrad.quora.service.business;
 
 import com.upgrad.quora.service.dao.UserAuthDao;
 import com.upgrad.quora.service.dao.UserDao;
+import com.upgrad.quora.service.entity.UserAuthEntity;
 import com.upgrad.quora.service.entity.UserEntity;
+import com.upgrad.quora.service.exception.AuthenticationFailedException;
 import com.upgrad.quora.service.exception.SignUpRestrictedException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
+
+import java.time.ZonedDateTime;
 import java.util.UUID;
 
 @Service
@@ -40,7 +44,7 @@ public class UserAuthenticationService {
         userEntity.setPassword(encryptedText[1]);
         return userDao.createUser(userEntity);
     }
-/*
+
     @Transactional(propagation = Propagation.REQUIRED)
     public UserAuthEntity signin(final String username, final String password) throws AuthenticationFailedException {
 
@@ -55,6 +59,8 @@ public class UserAuthenticationService {
 
         JwtTokenProvider jwtTokenProvider = new JwtTokenProvider(encryptedPassword);
         UserAuthEntity userAuthEntity = new UserAuthEntity();
+
+
         userAuthEntity.setUuid(UUID.randomUUID().toString());
         userAuthEntity.setUserEntity(userEntity);
         final ZonedDateTime now = ZonedDateTime.now();
@@ -69,6 +75,7 @@ public class UserAuthenticationService {
         return userAuthEntity;
     }
 
+/*
     @Transactional(propagation = Propagation.REQUIRED)
     public UserEntity signout(final String accessToken) throws SignOutRestrictedException {
         UserAuthEntity userAuthEntity = userAuthDao.getUserAuthByToken(accessToken);
@@ -79,7 +86,7 @@ public class UserAuthenticationService {
         userAuthDao.updateUserAuth(userAuthEntity);
         return userAuthEntity.getUserEntity();
     }
-    */
+*/
 
     //checks whether the username exist in the database
     private boolean isUserNameInUse(final String userName) {
