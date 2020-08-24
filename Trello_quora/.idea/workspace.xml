@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47a15d9d-c79e-46a9-bbbf-df38ac55657d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/controller/AdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/controller/CommonController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/model/UserDeleteResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/model/UserDetailsResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quora-service/src/main/java/com/upgrad/quora/service/business/AdminService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quora-service/src/main/java/com/upgrad/quora/service/business/CommonUserService.java" afterDir="false" />
+    <list default="true" id="47a15d9d-c79e-46a9-bbbf-df38ac55657d" name="Default Changelist" comment="Question Controller">
+      <change afterPath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/controller/QuestionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/model/QuestionDetailsResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/model/QuestionEditRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/model/QuestionEditResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/model/QuestionRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/model/QuestionResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quora-service/src/main/java/com/upgrad/quora/service/business/QuestionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quora-service/src/main/java/com/upgrad/quora/service/dao/QuestionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quora-service/src/main/java/com/upgrad/quora/service/entity/QuestionEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/exception/RestExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/exception/RestExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quora-api/target/classes/com/upgrad/quora/api/model/SignoutResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/target/classes/com/upgrad/quora/api/model/SignoutResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quora-api/target/classes/com/upgrad/quora/api/model/UserDeleteResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/target/classes/com/upgrad/quora/api/model/UserDeleteResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quora-api/target/classes/com/upgrad/quora/api/model/UserDetailsResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/target/classes/com/upgrad/quora/api/model/UserDetailsResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-api/target/classes/com/upgrad/quora/api/exception/RestExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/target/classes/com/upgrad/quora/api/exception/RestExceptionHandler.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,7 +218,8 @@
       <workItem from="1597791782467" duration="7190000" />
       <workItem from="1597844285368" duration="6025000" />
       <workItem from="1597863761427" duration="12895000" />
-      <workItem from="1597970867533" duration="42124000" />
+      <workItem from="1597970867533" duration="43303000" />
+      <workItem from="1598274822050" duration="6207000" />
     </task>
     <task id="LOCAL-00001" summary="UserController-SignUpTested">
       <created>1598145627604</created>
@@ -247,7 +249,21 @@
       <option name="project" value="LOCAL" />
       <updated>1598212982529</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Common Controller and Admin Controller">
+      <created>1598240399376</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1598240399376</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Common Controller and Admin Controller">
+      <created>1598240466496</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1598240466496</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,7 +274,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -268,7 +286,9 @@
     <MESSAGE value="UserController-SignUpTested" />
     <MESSAGE value="UserController-SignInTested" />
     <MESSAGE value="UserController-SignoutTested" />
-    <option name="LAST_COMMIT_MESSAGE" value="UserController-SignoutTested" />
+    <MESSAGE value="Common Controller and Admin Controller" />
+    <MESSAGE value="Question Controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="Question Controller" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="26" key="#Assign_Data_Sources" timestamp="1598138248063">
@@ -283,54 +303,54 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="58" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1598016388485" />
-    <state x="279" y="0" width="805" height="728" key="CommitChangelistDialog2" timestamp="1598240393799">
+    <state x="279" y="0" width="805" height="728" key="CommitChangelistDialog2" timestamp="1598284039476">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="279" y="0" width="805" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1598240393799" />
+    <state x="279" y="0" width="805" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1598284039476" />
     <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1597795001008">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1597795001008" />
-    <state width="1323" height="85" key="GridCell.Tab.0.bottom" timestamp="1598240248500">
+    <state width="1323" height="62" key="GridCell.Tab.0.bottom" timestamp="1598284039612">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="85" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598240248500" />
-    <state width="1323" height="85" key="GridCell.Tab.0.center" timestamp="1598240248499">
+    <state width="1323" height="62" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598284039612" />
+    <state width="1323" height="62" key="GridCell.Tab.0.center" timestamp="1598284039612">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="85" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598240248499" />
-    <state width="1323" height="85" key="GridCell.Tab.0.left" timestamp="1598240248499">
+    <state width="1323" height="62" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598284039612" />
+    <state width="1323" height="62" key="GridCell.Tab.0.left" timestamp="1598284039611">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="85" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598240248499" />
-    <state width="1323" height="85" key="GridCell.Tab.0.right" timestamp="1598240248499">
+    <state width="1323" height="62" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598284039611" />
+    <state width="1323" height="62" key="GridCell.Tab.0.right" timestamp="1598284039612">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="85" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598240248499" />
-    <state width="1323" height="85" key="GridCell.Tab.1.bottom" timestamp="1598240248500">
+    <state width="1323" height="62" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598284039612" />
+    <state width="1323" height="62" key="GridCell.Tab.1.bottom" timestamp="1598284039613">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="85" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598240248500" />
-    <state width="1323" height="85" key="GridCell.Tab.1.center" timestamp="1598240248500">
+    <state width="1323" height="62" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598284039613" />
+    <state width="1323" height="62" key="GridCell.Tab.1.center" timestamp="1598284039612">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="85" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1598240248500" />
-    <state width="1323" height="85" key="GridCell.Tab.1.left" timestamp="1598240248500">
+    <state width="1323" height="62" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1598284039612" />
+    <state width="1323" height="62" key="GridCell.Tab.1.left" timestamp="1598284039612">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="85" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1598240248500" />
-    <state width="1323" height="85" key="GridCell.Tab.1.right" timestamp="1598240248500">
+    <state width="1323" height="62" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1598284039612" />
+    <state width="1323" height="62" key="GridCell.Tab.1.right" timestamp="1598284039613">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="85" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1598240248500" />
+    <state width="1323" height="62" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1598284039613" />
     <state x="204" y="20" key="SettingsEditor" timestamp="1597722699179">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="204" y="20" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1597722699179" />
-    <state x="391" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1597970874480">
+    <state x="391" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1598274886481">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="391" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1597970874480" />
+    <state x="391" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1598274886481" />
     <state x="494" y="284" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598146039521">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
